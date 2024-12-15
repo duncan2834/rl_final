@@ -1,5 +1,5 @@
 from magent2.environments import battle_v4
-from torch_model import QNetwork
+from DQN_model import DQN
 import torch
 import numpy as np
 
@@ -17,11 +17,11 @@ def eval():
     def random_policy(env, agent, obs):
         return env.action_space(agent).sample()
 
-    q_network = QNetwork(
-        env.observation_space("red_0").shape, env.action_space("red_0").n
+    q_network = DQN(
+        env.observation_space("blue_0").shape, env.action_space("blue_0").n
     )
     q_network.load_state_dict(
-        torch.load("red.pt", weights_only=True, map_location="cpu")
+        torch.load("blue.pt", weights_only=True, map_location="cpu")
     )
     q_network.to(device)
 
@@ -99,7 +99,7 @@ def eval():
     print("Eval with trained policy")
     print(
         run_eval(
-            env=env, red_policy=pretrain_policy, blue_policy=random_policy, n_episode=30
+            env=env, red_policy=random_policy, blue_policy=pretrain_policy, n_episode=30
         )
     )
     print("=" * 20)
