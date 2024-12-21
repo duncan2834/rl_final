@@ -8,6 +8,9 @@ In this final project, you will develop and train a reinforcement learning (RL) 
 
 Your agent's performance should be evaluated based on reward and win rate against each of these models. You should control *blue* agents when evaluating.
 
+## Lưu ý khi chạy
+Chạy trên colab sử dụng runtime GPU có thể bị lỗi, phải chuyển sang cpu để chạy.
+
 
 <p align="center">
   <img src="assets/random.gif" width="300" alt="random agent" />
