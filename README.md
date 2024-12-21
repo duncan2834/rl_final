@@ -1,6 +1,6 @@
 # MAgent2 RL Final Project.
 ## Tổng quát.
-- Repository dự án cuối kỳ môn Reinforcement Learning, nhóm gồm:
+- Repository dự án cuối kỳ môn Reinforcement Learning, nhóm bao gồm 3 thành viên:
   + Trần Hồng Đăng - 22022646 (nhóm trưởng).
   + Bùi Thế Long - 22022647.
   + Trịnh Minh Hiếu - 22022536.
@@ -13,7 +13,7 @@
 - File train_eval_colab_ready.ipynb dùng để chạy trên Google Colab, môi trường GPU T4.
 
 ## Cài đặt.
-- Clone this repo and install with
+- Clone repo và chạy lệnh:
 ```
 pip install -r requirements.txt
 ```
