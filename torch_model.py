@@ -1,6 +1,7 @@
 import torch.nn as nn
 import torch
 
+# Mạng thao khảo của anh Giang.
 class QNetwork(nn.Module):
     def __init__(self, observation_shape, action_shape):
         super().__init__()
