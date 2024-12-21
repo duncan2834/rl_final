@@ -48,7 +48,7 @@ if __name__ == "__main__":
         env.observation_space("blue_0").shape, env.action_space("blue_0").n
     )
     q_network.load_state_dict(
-        torch.load("blue28.pt", weights_only=True, map_location="cpu")
+        torch.load("blue_final.pt", weights_only=True, map_location="cpu")
     )
     for agent in env.agent_iter():
         # observation: thông tin về env agent sử dụng để qdinh action
@@ -99,7 +99,7 @@ if __name__ == "__main__":
         env.observation_space("blue_0").shape, env.action_space("blue_0").n
     )
     q_network_blue.load_state_dict(
-        torch.load("blue28.pt", weights_only=True, map_location="cpu")
+        torch.load("blue_final.pt", weights_only=True, map_location="cpu")
     )
     q_network_red = QNetwork(
         env.observation_space("red_0").shape, env.action_space("red_0").n
