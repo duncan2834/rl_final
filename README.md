@@ -9,7 +9,6 @@
 - Nhóm sử dụng Deep Q-Network dựa trên Q-Network từ pretrain thầy cho sẵn.
 
 ## Lưu ý khi chạy.
-- Chạy trên Colab sử dụng runtime GPU có thể bị lỗi, phải chuyển sang cpu để chạy.
 - File train_eval_colab_ready.ipynb dùng để chạy trên Google Colab, môi trường GPU T4.
 
 ## Cài đặt.
