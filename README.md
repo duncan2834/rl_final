@@ -6,7 +6,7 @@
   + Trịnh Minh Hiếu - 22022536
 
 ## Mô hình sử dụng.
-Nhóm sử dụng Deep Q-Network dựa trên Qnetwork từ pretrain thầy cho sẵn.
+- Nhóm sử dụng Deep Q-Network dựa trên Qnetwork từ pretrain thầy cho sẵn.
 
 ## Lưu ý khi chạy.
 - Chạy trên colab sử dụng runtime GPU có thể bị lỗi, phải chuyển sang cpu để chạy.
