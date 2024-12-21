@@ -23,7 +23,7 @@ def eval():
         env.observation_space("blue_0").shape, env.action_space("blue_0").n
     )
     q_network_blue.load_state_dict(
-        torch.load("blue28.pt", weights_only=True, map_location="cpu")
+        torch.load("blue_final.pt", weights_only=True, map_location="cpu")
     )
     q_network_blue.to(device)
     

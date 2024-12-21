@@ -195,6 +195,6 @@ for ep in range(num_episodes):
     print(epsilon)
     print(f"Episode {ep + 1}: Total Reward: {total_reward}")
     
-torch.save(q_network.state_dict(), "blue28.pt")
+torch.save(q_network.state_dict(), "blue_final.pt")
 env.close()
     
