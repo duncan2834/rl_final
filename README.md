@@ -2,8 +2,8 @@
 ## Tổng quát.
 - Repository dự án cuối kỳ môn Reinforcement Learning, nhóm gồm:
   + Trần Hồng Đăng - 22022646 (nhóm trưởng).
-  + Bùi Thế Long - 22022647
-  + Trịnh Minh Hiếu - 22022536
+  + Bùi Thế Long - 22022647.
+  + Trịnh Minh Hiếu - 22022536.
 
 ## Mô hình sử dụng.
 - Nhóm sử dụng Deep Q-Network dựa trên Qnetwork từ pretrain thầy cho sẵn.
