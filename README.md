@@ -1,40 +1,24 @@
-# MAgent2 RL Final Project
-## Overview
-In this final project, you will develop and train a reinforcement learning (RL) agent using the MAgent2 platform. The task is to solve a specified MAgent2 environment `battle`, and your trained agent will be evaluated on all following three types of opponents:
+# MAgent2 RL Final Project.
+## Tổng quát.
+- Repository dự án cuối kỳ môn Reinforcement Learning, nhóm gồm:
+  + Trần Hồng Đăng - 22022646 (nhóm trưởng).
+  + Bùi Thế Long - 22022647
+  + Trịnh Minh Hiếu - 22022536
 
-1. Random Agents: Agents that take random actions in the environment.
-2. A Pretrained Agent: A pretrained agent provided in the repository.
-3. A Final Agent: A stronger pretrained agent, which will be released in the final week of the course before the deadline.
+## Mô hình sử dụng.
+Nhóm sử dụng Deep Q-Network dựa trên Qnetwork từ pretrain thầy cho sẵn.
 
-Your agent's performance should be evaluated based on reward and win rate against each of these models. You should control *blue* agents when evaluating.
+## Lưu ý khi chạy.
+- Chạy trên colab sử dụng runtime GPU có thể bị lỗi, phải chuyển sang cpu để chạy.
+- File train_eval_colab_ready.ipynb dùng để chạy trên Google Colab, môi trường GPU T4.
 
-## Mô hình sử dụng
-Nhóm sử dụng Deep Q Network dựa trên Qnetwork từ pretrain thầy cho sẵn.
-
-## Lưu ý khi chạy
-Chạy trên colab sử dụng runtime GPU có thể bị lỗi, phải chuyển sang cpu để chạy.
-
-
-<p align="center">
-  <img src="assets/random.gif" width="300" alt="random agent" />
-  <img src="assets/pretrained.gif" width="300" alt="pretrained agent" />
-</p>
-
-## Installation
-clone this repo and install with
+## Cài đặt.
+- Clone this repo and install with
 ```
 pip install -r requirements.txt
 ```
 
-## Demos
-See `main.py` for a starter code.
+## Huấn luyện và Đánh giá.
+- Trong repo có file train và eval riêng (file python), vầ một file .ipynb tích hợp cả hai để chạy trên Google Colab.
 
-## Evaluation
-Refer to `eval.py` for the evaluation code, you might want to modify it with your specific codebase.
 
-## References
-
-1. [MAgent2 GitHub Repository](https://github.com/Farama-Foundation/MAgent2)
-2. [MAgent2 API Documentation](https://magent2.farama.org/introduction/basic_usage/)
-
-For further details on environment setup and agent interactions, please refer to the MAgent2 documentation.
