@@ -20,4 +20,9 @@ pip install -r requirements.txt
 ## Huấn luyện và Đánh giá.
 - Trong repo có file train và eval riêng (file python), vầ một file .ipynb tích hợp cả hai để chạy trên Google Colab.
 
+## Demo
+
+
+
+https://github.com/user-attachments/assets/4b49d447-6a51-41c6-abb2-af5743cc6ca8
 
